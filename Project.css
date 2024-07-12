@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Open Sans;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.rightContent {
+    font-size: 1.5rem;
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: flex-end;
+}
+
+.rightContent a {
+    text-decoration: none;
+    color: #000000;
+    min-width: fit-content;
+}
+
+.firstContainer,
+.secondContainer,
+.thirdContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100%;
+    font-size: 2rem;
+    padding: 6rem;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100rem;
+    font-size: 2rem;
+    padding: 6rem;
+}
+
+.leftContent1,
+.leftContent2,
+.leftContent3 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 6%;
+    max-height: 100%;
+}
+
+.leftContent3 {
+    color: #ffffff;
+}
+
+.leftContent1 h1,
+.leftContent2 h1 {
+    padding-top: 6rem;
+    font-size: 3.5rem;
+}
+
+.rightContent1,
+.rightContent2,
+.rightContent3 {
+    width: 50%;
+}
+
+.rightContent1 img,
+.rightContent2 img {
+    width: 100%;
+}
+
+.emailAndButton {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+
+}
+
+.emailAndButton input {
+    width: 40%;
+    padding: 1.5rem;
+    border: 2px solid #808080;
+}
+
+.rightContent3 input {
+    width: 65%;
+    padding: 1.5rem;
+    border: 2px solid #808080;
+}
+
+.emailAndButton button,
+.rightContent3 button {
+    background-color: #3065f8;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.background {
+    margin-top: 5%;
+    padding-top: 10rem;
+    background-color: #f8f8fe;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+
+}
+
+.leftContent1 p,
+.leftContent2 p,
+.leftContent3 p {
+    font-size: 1.5rem;
+}
+
+#break {
+    display: block;
+}
+
+.seeFylo {
+    text-decoration: none;
+    color: #3c9f8f;
+}
+
+.link1 {
+    max-width: fit-content;
+    height: 3rem;
+    border-bottom: 0.2rem solid #3c9f8f;
+}
+
+.redirect {
+    width: 1.8rem;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 50%;
+    height: 22rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.avatar {
+    width: 4rem;
+    border-radius: 100%;
+}
+
+.logoAndName {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    gap: 5%;
+}
+
+.logoAndName p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#normal {
+    font-weight: normal;
+}
+
+.aboutFylo {
+    width: 100%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+    gap: 10%;
+}
+
+.quotes {
+    width: 2rem;
+}
+
+.rightContent3 {
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-left: 10rem;
+}
+
+.thirdContainer {
+    background-color: #585989;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #070439;
+    width: 100%;
+    height: 50rem;
+    font-size: 1.5rem;
+}
+
+.footer p {
+    color: #ffffff;
+}
+
+.apps img {
+    background-color: #f8f8fe;
+    width: 3rem;
+}
+
+.jobs,
+.contact2,
+.apps {
+    width: 25%;
+    text-align: center;
+}
+
+.jobs a,
+.contact2 a,
+.apps a {
+    text-decoration: none;
+}
+
+.contact {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    gap: 2rem;
+
+}
+
+.phone,
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2%;
+}
+
+.logo2 {
+    width: 20rem;
+}
+
+.jobs,
+.contact2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 6rem;
+    gap: 15%;
+    list-style-type: none;
+}
+
+.jobs li,
+.contact2 li {
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+    padding-left: 20%;
+}
+
+.apps {
+    width: 7%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.apps img {
+    height: 30%;
+}
+
+.button {
+    position: relative;
+    cursor: pointer;
+}
+
+.button::before {
+    content: '';
+    border-radius: 10px;
+    min-width: 99%;
+    min-height: 95%;
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button:hover,
+.button:focus {
+    color: #000000;
+    background-color: #ffffff;
+    transform: translateY(-6px);
+}
+
+.button:hover::before {
+    opacity: 1;
+}
